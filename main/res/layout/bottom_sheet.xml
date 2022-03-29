@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="360dp"
+    android:layout_height="650dp"
+    android:orientation="vertical"
+    android:id="@+id/design_bottom_sheet"
+    android:background="@android:color/transparent"
+    app:layout_behavior="@string/bottom_sheet_behavior"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="50dp"
+    >
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="360dp"
+        android:layout_height="800dp"
+        android:layout_gravity="center"
+
+        android:background="@drawable/button_add" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lineswipe"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="-790dp"/>
+
+    <EditText
+        android:id="@+id/input_title_course"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/course"
+        android:hint="Add Title of Course"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/comic_neue_light"
+        android:textStyle="bold"
+        android:textColorHint="@color/white"
+        android:inputType="text"
+        app:errorEnabled="true"/>
+
+
+
+    <ImageButton
+        android:id="@+id/add_note"
+        android:layout_width="126dp"
+        android:layout_height="145dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/add_note" />
+
+    <TextView
+        android:layout_width="126dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:text="Add Task"
+        android:textColor="@color/white"
+        android:fontFamily="@font/comic_neue_light"/>
+
+</LinearLayout>

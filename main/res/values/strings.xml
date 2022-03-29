@@ -1,6 +1,14 @@
 <resources>
-    <string name="app_name">RoomWordSample</string>
-    <string name="hint_word">Word...</string>
-    <string name="button_save">Save</string>
-    <string name="empty_not_saved">Word not saved because it is empty.</string>
+    <string name="app_name">Hogwarts Notes</string>
+    <string name="my_task">My Task</string>
+    <string name="to_do">To Do</string>
+    <string name="search">Search</string>
+    <string name="create_cour">Create Course\nBelow!</string>
+    <string name="hogwarts">Hogwarts</string>
+    <string name="notes">Notes</string>
+    <string name="letsgo">Lets Go!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open_drawer">drawer open</string>
+    <string name="close_drawer">drawer close</string>
 </resources>

@@ -6,5 +6,19 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
-    <color name="buttonLabel">#FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="search">#ACAAAA</color>
+    <color name="welcome">#785986</color>
+    <color name="course">#926CA4</color>
+    <color name="doing">#CC98E4</color>
+    <color name="task">#6B5A73</color>
+    <color name="option">#533C5E</color>
+    <color name="circle2">#B3FFFFFF</color>
+    <color name="circle3">#80FFFFFF</color>
+    <color name="colorPrimaryVariant">@color/purple_700</color>
+    <color name="colorOnPrimary">@color/white</color>
+    <color name="colorSecondaryVariant">@color/teal_700</color>
+    <color name="colorOnSecondary">@color/black</color>
+
+
 </resources>
